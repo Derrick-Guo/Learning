@@ -11,3 +11,5 @@ Whitespace and Style Guidelines
 % Mod (the remainder after dividing)
 ** Exponentiation (note that ^ does not do this operation, as you might have seen in other languages)
 // Divides and rounds down to the nearest integer
+
+Bitwise operators are special operators in Python that you can learn more about here if you'd like.
