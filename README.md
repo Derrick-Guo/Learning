@@ -36,6 +36,10 @@ More information of **Bitwise operator** can be find [here](https://wiki.python.
 - `in`
 - `not in`
 
+### Identity Operators
+- `is`
+- `is not`
+
 ### Methods
 - A method in Python behaves similarly to a function. Methods actually are functions that are called using **dot notation**. 
 - Methods are **specific to the data type** for a particular variable. So there are some built-in methods that are available for all strings, different methods that are available for all integers, etc.
@@ -65,3 +69,26 @@ More information of **Bitwise operator** can be find [here](https://wiki.python.
 - A tuple is a data type for immutable ordered sequences of elements.
 - The parentheses are optional when defining tuples, and programmers frequently omit them if parentheses don't clarify the code.
 - **Tuple unpacking**: You can use tuple unpacking to assign the information from a tuple into multiple variables without having to access them one by one and make multiple assignment statements.
+
+### Sets
+- A set is a data type for mutable unordered collections of unique elements. One application of a set is to quickly remove duplicates from a list.
+- Sets support the in operator the same as lists do. You can add elements to sets using the `.add()` method, and remove elements using the `.pop()` method, similar to lists. Although, when you pop an element from a set, a random element is removed. Remember that sets, unlike lists, are unordered so there is no "last element".
+
+### Dictionary
+- A dictionary is a mutable data type that stores mappings of unique keys to values.
+- Dictionaries can have keys of any immutable type, like integers or tuples, not just strings.
+- We can check whether a value is in a dictionary the same way we check whether a value is in a list or set with the `in` keyword.
+- `.get()` looks up values in a dictionary, but unlike square brackets, get returns None (or a default value of your choice) if the key isn't found.
+
+### For Loops
+- A for loop is used to "iterate", or do something repeatedly, over an iterable.
+- An **iterable** is an object that can return one of its elements at a time. This can include sequence types, such as strings, lists, and tuples, as well as non-sequence types, such as dictionaries and files.
+- `range()` is a built-in function used to create an iterable sequence of numbers. eg: `range(start=0, stop, step=1)`
+
+### While Loops vs For Loops
+- For loops are an example of "definite iteration" meaning that the loop's body is run a predefined number of times. This differs from "indefinite iteration" which is when a loop repeats an unknown number of times and ends when some condition is met, which is what happens in a while loop.
+- For loops are ideal when the number of iterations is known or finite. While loops are ideal when the iterations need to continue until a condition is met.
+
+### Zip and Enumerate
+`zip` returns an iterator that combines multiple iterables into one sequence of tuples. Each tuple contains the elements in that position from all the iterables.
+- `enumerate` is a built in function that returns an iterator of tuples containing indices and values of a list. 
