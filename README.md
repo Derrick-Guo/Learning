@@ -92,3 +92,15 @@ More information of **Bitwise operator** can be find [here](https://wiki.python.
 ### Zip and Enumerate
 `zip` returns an iterator that combines multiple iterables into one sequence of tuples. Each tuple contains the elements in that position from all the iterables.
 - `enumerate` is a built in function that returns an iterator of tuples containing indices and values of a list. 
+
+### Lambda Expressions
+- You can use lambda expressions to create anonymous functions. That is, functions that don’t have a name. They are helpful for creating quick functions that aren’t needed later in your code. This can be especially useful for higher order functions, or functions that take in other functions as arguments.
+- With a lambda expression, this function:  
+`def multiply(x, y):
+    return x * y`  
+can be reduced to:  
+`multiply = lambda x, y: x * y`
+
+### High-order built-in functions
+- map() function returns a map object(which is an iterator) of the results after applying the given function to each item of a given iterable (list, tuple etc.)
+- filter() is a higher-order built-in function that takes a function and iterable as inputs and returns an iterator with the elements from the iterable for which the function returns True. 
