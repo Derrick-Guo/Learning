@@ -1,4 +1,4 @@
-# Learning
+# Python memos
 **Data Types**: Integers, Floats, Booleans, Strings  
 **Operators**: Arithmetic, Assignment, Comparison, Logical, Membership, Identity   
 **Data Structures**: Lists, Tuples, Sets, Dictionaries, Compound Data Structure
