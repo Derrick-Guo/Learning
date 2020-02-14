@@ -109,3 +109,10 @@ can be reduced to:
 - There are two types of errors: Syntax errors and Exceptions
 - Syntax errors occur when Python can't interpret our code since we didn't follow the correct syntax for Python.
 - Exceptions occur when unexpected things hanppen during the execution of the code.
+
+### Examples of exceptions:
+`try:
+    code
+except Exception as e:
+    code
+    print("Exception occurred: {}".format(e))`
