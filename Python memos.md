@@ -104,3 +104,8 @@ can be reduced to:
 ### High-order built-in functions
 - map() function returns a map object(which is an iterator) of the results after applying the given function to each item of a given iterable (list, tuple etc.)
 - filter() is a higher-order built-in function that takes a function and iterable as inputs and returns an iterator with the elements from the iterable for which the function returns True. 
+
+### Errors
+- There are two types of errors: Syntax errors and Exceptions
+- Syntax errors occur when Python can't interpret our code since we didn't follow the correct syntax for Python.
+- Exceptions occur when unexpected things hanppen during the execution of the code.
