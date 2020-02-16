@@ -90,7 +90,7 @@ More information of **Bitwise operator** can be find [here](https://wiki.python.
 - For loops are ideal when the number of iterations is known or finite. While loops are ideal when the iterations need to continue until a condition is met.
 
 ### Zip and Enumerate
-`zip` returns an iterator that combines multiple iterables into one sequence of tuples. Each tuple contains the elements in that position from all the iterables.
+- `zip` returns an iterator that combines multiple iterables into one sequence of tuples. Each tuple contains the elements in that position from all the iterables.
 - `enumerate` is a built in function that returns an iterator of tuples containing indices and values of a list. 
 
 ### Lambda Expressions
