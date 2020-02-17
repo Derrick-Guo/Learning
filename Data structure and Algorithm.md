@@ -1,4 +1,4 @@
-# Basics for code interviewing
+# Basics of Data structure and Algorithm
 
 ### Tricks:
 If you encounter an algorithm that you haven’t met before in an interview, making a results table will help. 
@@ -98,5 +98,19 @@ A collection is just a group of things, without inherent order.
 - The purpose of a load factor is to give us a sense of how "full" a hash table is. For example, if we're trying to store 10 values in a hash table with 1000 buckets, the load factor would be 0.01, and the majority of buckets in the table will be empty. We end up wasting memory by having so many empty buckets, so we may want to rehash, or come up with a new hash function with less buckets. We can use our load factor as an indicator for when to rehash—as the load factor approaches 0, the more empty, or sparse, our hash table is.   
 On the flip side, the closer our load factor is to 1 (meaning the number of values equals the number of buckets), the better it would be for us to rehash and add more buckets. Any table with a load value greater than 1 is guaranteed to have collisions. 
 
-
-
+### Tree
+- A tree starts from a place called root and you add data to it called branches.
+- A tree is just an extension of a linked list. Instead of having only one next element, a tree can have several next elements.
+- A linked list is always drawn horizontally, but a tree normally drawn vertically.
+- The individual elements in a tree that contain values are often called nodes.
+- Constraints on tree:  
+    - Connected: There must be some way to reach every node from the root.
+    - Uncycled: There must not be any cycles in the tree.
+- Levels: how many connections it takes to reach the root plus one. The root is level 1.
+- Nodes in a tree are often having a parent child relationship.
+- Leaves: The nodes at the end that don't have any children are called leaves or external nodes. A parent node is called an internal node.
+- Edge: A connection of two nodes. 
+- Path: A group of connections taken together.
+- Height: Number of edges between it and the furthest leaf on the tree. A leaf has a height of zero. The height of the tree overall is just the height of the root node.
+- Depth: The depth of a node is the number of edges to the root. The depth of root is 0.
+- Height and depth should move inversely.
