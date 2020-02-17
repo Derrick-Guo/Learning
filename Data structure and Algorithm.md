@@ -98,7 +98,7 @@ A collection is just a group of things, without inherent order.
 - The purpose of a load factor is to give us a sense of how "full" a hash table is. For example, if we're trying to store 10 values in a hash table with 1000 buckets, the load factor would be 0.01, and the majority of buckets in the table will be empty. We end up wasting memory by having so many empty buckets, so we may want to rehash, or come up with a new hash function with less buckets. We can use our load factor as an indicator for when to rehash—as the load factor approaches 0, the more empty, or sparse, our hash table is.   
 On the flip side, the closer our load factor is to 1 (meaning the number of values equals the number of buckets), the better it would be for us to rehash and add more buckets. Any table with a load value greater than 1 is guaranteed to have collisions. 
 
-### Tree
+### Tree Basics
 - A tree starts from a place called root and you add data to it called branches.
 - A tree is just an extension of a linked list. Instead of having only one next element, a tree can have several next elements.
 - A linked list is always drawn horizontally, but a tree normally drawn vertically.
@@ -114,3 +114,17 @@ On the flip side, the closer our load factor is to 1 (meaning the number of valu
 - Height: Number of edges between it and the furthest leaf on the tree. A leaf has a height of zero. The height of the tree overall is just the height of the root node.
 - Depth: The depth of a node is the number of edges to the root. The depth of root is 0.
 - Height and depth should move inversely.
+
+### Tree Traversal
+- DFS(depth-first search): If there are children nodes to explore, exploring them is the first priority.
+- BFS(breadth-first search): The priority is visiting every node on the same level we're currently on before visiting child nodes.
+- Pre-order traversal: check off a node as you see it before you traverse any furthur in the tree.
+- In-order traversal: only check off a node when we see its left child and come back to it. Essentially we go through nodes in order from the left to the right.
+- Post-order traversal: We won't be able to check off a node until we've seen all of its descendants and returned.
+
+### Binary trees
+- Binary trees are simple trees for where parents have at most two children.
+- Search: We need to go through every single element in the tree, so the efficiency is O(n).
+- Delete: Delete an element cause a efficiency of O(n), since we need to make a search and additional work to shift around the elements after deletion.
+- Insert: We need to find a leaf or a parent with only one child. We start from the root and keep moving down until we find an open spot. 
+- Perfect trees: Every node except leaves on the last level, has two children.
