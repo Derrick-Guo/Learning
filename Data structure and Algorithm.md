@@ -128,3 +128,14 @@ On the flip side, the closer our load factor is to 1 (meaning the number of valu
 - Delete: Delete an element cause a efficiency of O(n), since we need to make a search and additional work to shift around the elements after deletion.
 - Insert: We need to find a leaf or a parent with only one child. We start from the root and keep moving down until we find an open spot. 
 - Perfect trees: Every node except leaves on the last level, has two children.
+
+### Binary Search Tree(BST)
+- A binary search tree is a type of binary tree.
+- BST are sorted. Every value on the left of a particular node is smaller than it and every value on the right of a particular node is larger than it.
+- The run time of a search on a BST is just the height of the tree, which is log(n). So the time efficiency is O(log(n)).
+- Inserting is a BST is pretty much the same as search in BST, so the time efficiency is also O(log(n)).
+
+### BST complications
+- Unbalanced binary tree: The distribution of nodes is skewed to either the left side or the right side.
+- An unbalanced binary tree can be considered as the worst case scenario for a BST.
+- For an unbalanced binary tree, search, insert, and delete all take linear time (O(n)) in the worst case. The average case takes time     of O(log(n)).
