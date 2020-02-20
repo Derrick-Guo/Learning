@@ -139,3 +139,19 @@ On the flip side, the closer our load factor is to 1 (meaning the number of valu
 - Unbalanced binary tree: The distribution of nodes is skewed to either the left side or the right side.
 - An unbalanced binary tree can be considered as the worst case scenario for a BST.
 - For an unbalanced binary tree, search, insert, and delete all take linear time (O(n)) in the worst case. The average case takes time     of O(log(n)).
+
+### Heaps
+- A heap is another specific type of tree. In a heap, elements arranged in increasing or decreasing order, such that the root element is either the maximum or minimum value in the tree.
+- There are two different kinds of heaps: Max heaps and min heaps.
+- Max heap: In a max heap, a parent must always have a greater value than its child. The root is the biggest element.
+- Min heap: In a min heap, a parent has a lower value than its child. The root is the minimum element.
+- Heaps don't need to be binary trees, so parents can have any number of children.
+- A binary heap must be a complete tree, meaning all levels except the last one are completely full.
+- Search in a binary heap is a linear time operation.
+- Heapfity is the operation in which we reorder the tree based on the heap property.
+- The runtime of insert and delete is O(log(n)), which is the height of the tree.
+
+### Self-balancing Tree
+- A self-balancing tree is one that tries to minimize the number of levels that it uses.
+- A self-balancing tree does some algorithm during insertion and deletion to keep itself balanced.
+- A common example: Red-Black Tree
