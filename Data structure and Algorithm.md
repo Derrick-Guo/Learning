@@ -155,3 +155,6 @@ On the flip side, the closer our load factor is to 1 (meaning the number of valu
 - A self-balancing tree is one that tries to minimize the number of levels that it uses.
 - A self-balancing tree does some algorithm during insertion and deletion to keep itself balanced.
 - A common example: Red-Black Tree
+
+### Graphs(Networks)
+- In fact, a tree is just a specific type of graph
