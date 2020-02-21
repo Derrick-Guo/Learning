@@ -158,3 +158,17 @@ On the flip side, the closer our load factor is to 1 (meaning the number of valu
 
 ### Graphs(Networks)
 - In fact, a tree is just a specific type of graph
+- Consist of node(vertex) and edge. Edges can have value. Also, edges can have direction.
+- Directed graph: a graph where the edges have a sense of direction.
+- Undirected graph: a graph with no sense of direction.
+- Graph can have cycles but trees can't. A cycle happens in a graph when you can start at one node and follow edes all the way back to that node.
+- One type shows up often: DAG(Directed Acyclic Graph)
+- Disconnected: A disconnected graph has some vertex that can't be reached by the other vertices.
+- Weakly Connected: A directed graph is weakly connected when only replacing all of the directed edges with undirected edges can cause it to be connected.
+- Connected: Here we only use "connected graph" to refer to undirected graphs. In a connected graph, there is some path between one vertex and every other vertex.
+- Strongly Connected: Strongly connected directed graphs must have a path from every node and every other node. So, there must be a path from A to B AND B to A.
+
+### Graph Representations
+Edge list: A list of edges. 
+Adjacency list: In a adjacency list, vertices have an ID number that corresponds to the index in an array.
+Adjacency Matrix
