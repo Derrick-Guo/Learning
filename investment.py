@@ -9,8 +9,7 @@ class Investment:
 			self.balance+=profit
 		return self.balance
 
-	def two():
-		pass
+	
 	
 
 my_investment=Investment(20000)
