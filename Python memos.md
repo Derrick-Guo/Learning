@@ -12,7 +12,7 @@
 - `**` Exponentiation (note that ^ does not do this operation, as you might have seen in other languages)
 - `//` Divides and rounds down to the nearest integer
 
-More information of **Bitwise operator** can be find [here](https://wiki.python.org/moin/BitwiseOperators).
+Information of **Bitwise operator** can be find [here](https://wiki.python.org/moin/BitwiseOperators).
 
 ### Assignment Operators
 - `=` 
