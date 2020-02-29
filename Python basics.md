@@ -1,8 +1,9 @@
-# Python memos
+# Python basics  
 **Data Types**: Integers, Floats, Booleans, Strings  
-**Operators**: Arithmetic, Assignment, Comparison, Logical, Membership, Identity   
+**Operators**: Arithmetic, Bitwise, Assignment, Comparison, Logical, Membership, Identity   
 **Data Structures**: Lists, Tuples, Sets, Dictionaries, Compound Data Structure
 
+## Operators  
 ### Arithmetic Operators
 - `+` Addition
 - `-` Subtraction
@@ -23,7 +24,7 @@ Does a "bitwise and". Each bit of the output is 1 if the corresponding bit of x 
 - `x | y`    
 Does a "bitwise or". Each bit of the output is 0 if the corresponding bit of x AND of y is 0, otherwise it's 1.     
 - `~ x`     
-Returns the complement of x - the number you get by switching each 1 for a 0 and each 0 for a 1. This is the same as -x - 1.        
+Does a "bitwise not". Returns the complement of x - the number you get by switching each 1 for a 0 and each 0 for a 1. This is the same as -x - 1.        
 - `x ^ y`       
 Does a "bitwise exclusive or". Each bit of the output is the same as the corresponding bit in x if that bit in y is 0, and it's the complement of the bit in x if that bit in y is 1.  
   
