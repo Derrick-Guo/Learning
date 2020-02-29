@@ -1,0 +1,11 @@
+# Useful Python functions
+- `abs(x)`: The abs() takes only one argument, a number whose absolute value is to be returned. The argument can be an integer, a floating point number or a complex number.  
+- `math.ceil(x)`: Return the ceiling of x as a float, the smallest integer value greater than or equal to x.
+- `math.floor(x)`: Return the floor of x as a float, the largest integer value less than or equal to x.
+- `math.sqrt(x)`: Returns the square root of x.
+- `pow(x, y, z(opt))`: Returns the value of x to the power of y. If a third parameter is present, it returns x to the power of y, modulus z.  
+- `random.randrange(start(opt),stop,step(opt))`: This function generated the numbers in the sequence start-stop skipping step.  
+- `random.randint(start,end)`: Returns a random integer within the given range as parameters. Start and end must be interger.
+- `random.random()`: Return the next random floating point number in the range [0.0, 1.0).
+- `random.shuffle(x)`: Takes a sequence(list, string, or tuple) and reorganize the order of the items.
+- `random.choice(x)`: Returns a randomly selected element from the specified sequence.
