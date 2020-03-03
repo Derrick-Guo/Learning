@@ -7,5 +7,9 @@
 - `random.randrange(start(opt),stop,step(opt))`: This function generated the numbers in the sequence start-stop skipping step.  
 - `random.randint(start,end)`: Returns a random integer within the given range as parameters. Start and end must be interger.
 - `random.random()`: Return the next random floating point number in the range [0.0, 1.0).
+
 - `random.shuffle(x)`: Takes a sequence(list, string, or tuple) and reorganize the order of the items.
 - `random.choice(x)`: Returns a randomly selected element from the specified sequence.
+
+- `list.index(element, start(opt), end(opt))`: Inbuilt function in Python, which searches for given element from start of the list and returns the lowest index where the element appears.
+- `dict.setdefault(key, default_value(opt))`: Returns the value of a key (if the key is in dictionary). If not, it inserts key with a value to the dictionary.
