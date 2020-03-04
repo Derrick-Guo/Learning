@@ -110,7 +110,7 @@ More information can be find [here](https://wiki.python.org/moin/BitwiseOperator
 - `enumerate` is a built in function that returns an iterator of tuples containing indices and values of a list. 
 
 ### Lambda Expressions
-- You can use lambda expressions to create anonymous functions. That is, functions that don’t have a name. They are helpful for creating quick functions that aren’t needed later in your code. This can be especially useful for higher order functions, or functions that take in other functions as arguments.
+- Lambda expressions is used to create anonymous functions. That is, functions that don’t have a name. Lambda expressions are helpful for creating quick functions that aren’t needed later. This can be especially useful for higher order functions, or functions that take in other functions as arguments.
 - With a lambda expression, this function:  
 `def multiply(x, y):
     return x * y`  
