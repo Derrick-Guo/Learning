@@ -64,6 +64,7 @@ More information can be find [here](https://wiki.python.org/moin/BitwiseOperator
 ### Lists
 - A list is a data structure in Python that is **mutable ordered** sequence of elements.
 - We can pull more than one value from a list at a time by using slicing. When using slicing, it is important to remember that the lower index is **inclusive** and the upper index is **exclusive**.
+- One important thing about slicing – is that list slice creates a shallow copy of the initial list. That means, we can safely modify the new list and it will not affect the initial list.
 - Lists are similar to strings. Since both types support the len function, indexing, slicing, and membership operator. 
 - Difference between lists and strings is that strings are sequences of letters, while list elements can be any type of object. One more subtle difference is that lists can be modified but strings can't.
 
