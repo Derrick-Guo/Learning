@@ -118,8 +118,8 @@ can be reduced to:
 `multiply = lambda x, y: x * y`
 
 ### High-order built-in functions
-- map() function returns a map object(which is an iterator) of the results after applying the given function to each item of a given iterable (list, tuple etc.)
-- filter() is a higher-order built-in function that takes a function and iterable as inputs and returns an iterator with the elements from the iterable for which the function returns True. 
+- `map(function, iterable)` returns a map object(which is an iterator) of the results after applying the given function to each item of a given iterable (list, tuple etc.)
+- `filter()` is a higher-order built-in function that takes a function and iterable as inputs and returns an iterator with the elements from the iterable for which the function returns True. 
 
 ### Errors
 - There are two types of errors: Syntax errors and Exceptions
