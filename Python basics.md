@@ -74,10 +74,6 @@ More information can be find [here](https://wiki.python.org/moin/BitwiseOperator
 - `min()` returns the smallest element in a list. min is the opposite of max, which returns the largest element in a list.
 - `sorted()` returns a copy of a list in order from smallest to largest, leaving the list unchanged.
 
-### Lists methods
-- `.join()` is a string method that takes a list of strings as an argument, and returns a string consisting of the list elements joined by a separator string.
-- `.append()` adds an element to the end of a list.
-
 ### Mutability and Order
 - Mutability is about whether or not we can change an object once it has been created. If an object (like a list or string) can be changed (like a list can), then it is called mutable. However, if an object cannot be changed with creating a completely new object (like strings), then the object is considered immutable.
 - Order is about whether the position of an element in the object can be used to access the element. We can use the order to access parts of a list and string.
