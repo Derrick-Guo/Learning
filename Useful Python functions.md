@@ -14,6 +14,7 @@
 - `list.index(element, start(opt), end(opt))`: Inbuilt function in Python, which searches for given element from start of the list and returns the lowest index where the element appears.
 - `list.insert(index, element)`: Inbuilt function in Python that inserts a given element at a given index in a list.
 - `list.count(object)` is an inbuilt function in Python that returns count of how many times a given object occurs in list.
+- `list.remove(obj)` is an inbuilt function in Python that removes a given object from the list.
 - `dict.setdefault(key, default_value(opt))`: Returns the value of a key (if the key is in dictionary). If not, it inserts key with a value to the dictionary.
 - `string.join(iterable)` method takes all items in an iterable and joins them into one string.A string must be specified as the separator.
 - `sum(iterable,start(opt))`: Inbuilt function sum() which sums up the numbers in the list. Returns the sum of the list + start. 
