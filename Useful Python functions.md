@@ -19,3 +19,4 @@
 - `dict.setdefault(key, default_value(opt))`: Returns the value of a key (if the key is in dictionary). If not, it inserts key with a value to the dictionary.
 - `string.join(iterable)` method takes all items in an iterable and joins them into one string.A string must be specified as the separator.
 - `sum(iterable,start(opt))`: Inbuilt function sum() which sums up the numbers in the list. Returns the sum of the list + start. 
+- `functools.reduce(function,seq)` is used to apply a particular function to all of the elements in the sequence passed along.
