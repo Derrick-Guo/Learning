@@ -1,5 +1,7 @@
 # Useful Python functions
 - `abs(x)`: The abs() takes only one argument, a number whose absolute value is to be returned. The argument can be an integer, a floating point number or a complex number.  
+- `ord(char)` returns an integer representing the Unicode character.
+- `chr(i)` returns a character (a string) from an integer (represents unicode code point of the character).
 - `math.ceil(x)`: Return the ceiling of x as a float, the smallest integer value greater than or equal to x.
 - `math.floor(x)`: Return the floor of x as a float, the largest integer value less than or equal to x.
 - `math.sqrt(x)`: Returns the square root of x.
