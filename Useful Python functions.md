@@ -23,6 +23,7 @@
 - `string.replace(old, new, count)` is an inbuilt function in Python programming language that returns a copy of the string where all occurrences of a substring is replaced with another substring.
 - `string.startswith(prefix,start(opt),end(opt))` returns True if a string starts with the specified prefix(string). If not, it returns False.
 - `string.endswith(suffix,start(opt),end(opt))` returns True if a string ends with the specified suffix. If not, it returns False.
+- `string(import).digits` is the string '0123456789'. 
 - `sum(iterable,start(opt))`: Inbuilt function sum() which sums up the numbers in the list. Returns the sum of the list + start. 
 - `functools.reduce(function,seq)` is used to apply a particular function to all of the elements in the sequence passed along.
 - `all(iterable)` returns True when all elements in the given iterable are true. If not, it returns False.
