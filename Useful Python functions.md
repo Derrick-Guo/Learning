@@ -27,5 +27,6 @@
 - `sum(iterable,start(opt))`: Inbuilt function sum() which sums up the numbers in the list. Returns the sum of the list + start. 
 - `functools.reduce(function,seq)` is used to apply a particular function to all of the elements in the sequence passed along.
 - `collections.Counter()` is a container that stores elements as dictionary keys, and their counts are stored as dictionary values.
+- `collections.namedtuples(typename, field_names)` Named tuples assign meaning to each position in a tuple and allow for more readable, self-documenting code. They can be used wherever regular tuples are used, and they add the ability to access fields by name instead of position index.
 - `all(iterable)` returns True when all elements in the given iterable are true. If not, it returns False.
 - `itertools.combinations(iterable, r)` returns the r length subsequences of elements from the input iterable.
