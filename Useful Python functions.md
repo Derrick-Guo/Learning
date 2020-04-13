@@ -25,7 +25,7 @@
 - `string.endswith(suffix,start(opt),end(opt))` returns True if a string ends with the specified suffix. If not, it returns False.
 - `string(import).digits` is the string '0123456789'. 
 - `sum(iterable,start(opt))`: Inbuilt function sum() which sums up the numbers in the list. Returns the sum of the list + start. 
-- `functools.reduce(function,seq)` is used to apply a particular function to all of the elements in the sequence passed along.
+- `functools.reduce(function,seq,initializer(opt))` is used to apply a particular function to all of the elements in the sequence passed along. If there is a initializer, the value of initializer will be put in the sequence as the first entry.
   - At first step, first two elements of sequence are picked and the result is obtained. 
   - Next step is to apply the same function to the previously attained result and the number just succeeding the second element and the result is again stored. 
   - This process continues till no more elements are left in the container. 
