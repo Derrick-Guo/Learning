@@ -24,6 +24,8 @@
 - `string.startswith(prefix,start(opt),end(opt))` returns True if a string starts with the specified prefix(string). If not, it returns False.
 - `string.endswith(suffix,start(opt),end(opt))` returns True if a string ends with the specified suffix. If not, it returns False.
 - `string.isalnum()` checks whether all the characters in the given string is alphanumeric or not.
+- `string.find(substring,start(opt),end(opt))` returns the index of first occurrence of the substring (if found). If not found, it returns -1.
+- `string.index(substring,start(opt),end(opt))` returns the index of a substring inside the string (if found). If the substring is not found, it raises an exception.
 - `string(import).digits` is the string '0123456789'. 
 - `string(import).hexdigits` is the string '0123456789abcdefABCDEF'.
 - `sum(iterable,start(opt))`: Inbuilt function sum() which sums up the numbers in the list. Returns the sum of the list + start. 
