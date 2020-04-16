@@ -23,6 +23,7 @@
 - `string.replace(old, new, count)` is an inbuilt function in Python programming language that returns a copy of the string where all occurrences of a substring is replaced with another substring.
 - `string.startswith(prefix,start(opt),end(opt))` returns True if a string starts with the specified prefix(string). If not, it returns False.
 - `string.endswith(suffix,start(opt),end(opt))` returns True if a string ends with the specified suffix. If not, it returns False.
+- `string.isalnum()` checks whether all the characters in the given string is alphanumeric or not.
 - `string(import).digits` is the string '0123456789'. 
 - `string(import).hexdigits` is the string '0123456789abcdefABCDEF'.
 - `sum(iterable,start(opt))`: Inbuilt function sum() which sums up the numbers in the list. Returns the sum of the list + start. 
