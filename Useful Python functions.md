@@ -39,3 +39,4 @@
 - `all(iterable)` returns True when all elements in the given iterable are true. If not, it returns False.
 - `any(iterable)` returns True if any element of an iterable is True. If not, returns False.
 - `itertools.combinations(iterable, r)` returns the r length subsequences of elements from the input iterable.
+- `itertools.groupby(iterable,keyfunc(opt))` returns grouped key and iterator pairs for the given iterable. 
