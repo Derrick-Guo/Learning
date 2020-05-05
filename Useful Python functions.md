@@ -38,6 +38,10 @@
 - `collections.namedtuples(typename, field_names)` Named tuples assign meaning to each position in a tuple and allow for more readable, self-documenting code. They can be used wherever regular tuples are used, and they add the ability to access fields by name instead of position index.
 - `all(iterable)` returns True when all elements in the given iterable are true. If not, it returns False.
 - `any(iterable)` returns True if any element of an iterable is True. If not, returns False.
-- `itertools.combinations(iterable, r)` returns the r length subsequences of elements from the input iterable.  eg: `li=[0,1,2] print([num for num in itertools.combinations(li,2)])` will be [(0, 1), (0, 2), (1, 2)].
+- `itertools.combinations(iterable, r)` returns the r length subsequences of elements from the input iterable. 
+eg: `li=[0,1,2] 
+print([num for num in itertools.combinations(li,2)])` will be [(0, 1), (0, 2), (1, 2)].
 - `itertools.groupby(iterable,keyfunc(opt))` returns grouped key and iterator pairs for the given iterable. 
-- `itertools.islice(iterable,start(opt),stop,step(opt))` returns sliced iterator which passed as argument.  eg:`li=[0,1,2,3,4,5] print([num for num in itertools.islice(li,3)])` will be [0, 1, 2].
+- `itertools.islice(iterable,start(opt),stop,step(opt))` returns sliced iterator which passed as argument.  
+eg:`li=[0,1,2,3,4,5] 
+print([num for num in itertools.islice(li,3)])` will be [0, 1, 2].
