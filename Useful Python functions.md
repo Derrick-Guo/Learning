@@ -41,7 +41,7 @@
 - `itertools.combinations(iterable, r)` returns the r length subsequences of elements from the input iterable. 
 eg: `li=[0,1,2] 
 print([num for num in itertools.combinations(li,2)])` will be [(0, 1), (0, 2), (1, 2)].
-- `itertools.groupby(iterable,keyfunc(opt))` returns grouped key and iterator pairs for the given iterable. 
+- `itertools.groupby(iterable,keyfunc(opt))` returns grouped key and iterator pairs for the given iterable. Refer to https://www.geeksforgeeks.org/itertools-groupby-in-python/
 - `itertools.islice(iterable,start(opt),stop,step(opt))` returns sliced iterator which passed as argument.  
 eg:`li=[0,1,2,3,4,5] 
 print([num for num in itertools.islice(li,3)])` will be [0, 1, 2].
