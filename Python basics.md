@@ -54,8 +54,8 @@ More information can be find [here](https://wiki.python.org/moin/BitwiseOperator
 
 ### Identity Operators
 - `is`
-- `is not`
-
+- `is not`  
+- Key difference between comparison operators and identity operators: `==` and `!=` compare the value of two objects, whereas the Python `is` and `is not` operators compare whether two variables refer to the same object in memory. 
 ### Methods
 - A method in Python behaves similarly to a function. Methods actually are functions that are called using **dot notation**. 
 - Methods are **specific to the data type** for a particular variable. So there are some built-in methods that are available for all strings, different methods that are available for all integers, etc.
