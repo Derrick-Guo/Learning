@@ -12,6 +12,7 @@ def search_first_of_k(A,k):
 			first_occurance=m # Key point, see the tip
 			r=m-1
 	return first_occurance
+# Time complexity: O(logn) Space complexity: O(1)
 # Test
 a=[1,2,2,3,3,3]
 print(search_first_of_k(a,3))
