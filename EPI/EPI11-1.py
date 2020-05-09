@@ -8,7 +8,7 @@ def search_first_of_k(A,k):
 		elif A[m]<k:
 			l=m+1
 		else:
-			first_occurance=m
+			first_occurance=m # Record the current occurance, and update this variable once another occurance is found later.
 			r=m-1
 	return first_occurance
 # Test
