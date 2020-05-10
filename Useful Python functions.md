@@ -31,6 +31,7 @@
 - `string(import).hexdigits` is the string '0123456789abcdefABCDEF'.
 - `sum(iterable,start(opt))`: Inbuilt function sum() which sums up the numbers in the list. Returns the sum of the list + start. 
 - `sorted(iterable,Key(opt),reversed(opt))` sorts the elements of a given iterable in a specific order (either ascending or descending) and returns the sorted iterable as a list. 
+- `set.discard(object)` removes the element from the set only if the element is present in the set. If the element is not present in the set, then no error or exception is raised and the original set is printed.
 - `functools.reduce(function,seq,initializer(opt))` is used to apply a particular function to all of the elements in the sequence passed along. The initializer will be set as the first argument to the function.
   - At first step, first two elements of sequence are picked and the result is obtained. 
   - Next step is to apply the same function to the previously attained result and the number just succeeding the second element and the result is again stored. 
