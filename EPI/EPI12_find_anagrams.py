@@ -1,3 +1,5 @@
+# Tip: add sorted version for each string in the strings as keys, 
+# and store corresponding original strings as values.
 import collections
 def find_anagrams(strings):
 	# Build a dictionary of which the values are lists.
