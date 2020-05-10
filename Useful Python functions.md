@@ -6,6 +6,7 @@
 - `math.floor(x)`: Return the floor of x as a float, the largest integer value less than or equal to x.
 - `math.sqrt(x)`: Returns the square root of x.
 - `pow(x, y, z(opt))`: Returns the value of x to the power of y. If a third parameter is present, it returns x to the power of y, modulus z.  
+- `hash(object)` returns the hash value of an object if it has one. The hash() method takes a single parameter `object` whose hash value is to be returned (integer, string, float). The hash() method only works for immutable objects.
 - `random.randrange(start(opt),stop,step(opt))`: This function generated the numbers in the sequence start-stop skipping step.  
 - `random.randint(start,end)`: Returns a random integer within the given range as parameters. Start and end must be interger.
 - `random.random()`: Return the next random floating point number in the range [0.0, 1.0).
