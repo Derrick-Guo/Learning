@@ -20,6 +20,7 @@
 - `list.remove(obj)` is an inbuilt function in Python that removes a given object from the list.
 - `bisect.bisect(list,num,begin(opt),end(opt))` returns the position in the sorted list, where the number passed in argument can be placed so as to maintain the resultant list in sorted order. If the element is already present in the list, the right most position where element has to be inserted is returned. This function takes 4 arguments, list which has to be worked with, number to insert, starting position in list to consider, ending position which has to be considered.
 - `dict.setdefault(key, default_value(opt))`: Returns the value of a key (if the key is in dictionary). If not, it inserts key with a value to the dictionary.
+- `dict.pop(key,default(opt))` returns the value of the key if key is found. If key is not found, value is specified as the second argument (default). If key is not found and default argument is not specified, KeyError exception is raised.
 - `string.join(iterable)` method takes all items in an iterable and joins them into one string. A string must be specified as the separator. If the iterable contains any non-string values, it raises a TypeError exception.
 - `string.replace(old, new, count)` is an inbuilt function in Python programming language that returns a copy of the string where all occurrences of a substring is replaced with another substring.
 - `string.startswith(prefix,start(opt),end(opt))` returns True if a string starts with the specified prefix(string). If not, it returns False.
