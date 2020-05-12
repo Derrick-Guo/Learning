@@ -17,6 +17,7 @@
 - `list.index(element, start(opt), end(opt))`: Inbuilt function in Python, which searches for given element from start of the list and returns the lowest index where the element appears.
 - `list.insert(index, element)`: Inbuilt function in Python that inserts a given element at a given index in a list.
 - `list.count(object)` is an inbuilt function in Python that returns count of how many times a given object occurs in list.
+- `list.sort(key(opt),reverse(opt))` sorts the elements of a given list in a specific order - Ascending or Descending. If reverse is true, the sorted list is reversed (or sorted in Descending order). Key is a function that serves for the sort comparison.
 - `list.remove(obj)` is an inbuilt function in Python that removes a given object from the list.
 - `bisect.bisect(list,num,begin(opt),end(opt))` returns the position in the sorted list, where the number passed in argument can be placed so as to maintain the resultant list in sorted order. If the element is already present in the list, the right most position where element has to be inserted is returned. This function takes 4 arguments, list which has to be worked with, number to insert, starting position in list to consider, ending position which has to be considered.
 - `dict.setdefault(key, default_value(opt))`: Returns the value of a key (if the key is in dictionary). If not, it inserts key with a value to the dictionary.
