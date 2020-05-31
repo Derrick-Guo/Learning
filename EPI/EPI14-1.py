@@ -14,6 +14,7 @@ def is_binary_tree_bst(tree,low_range=float('-inf'),high_range=float('inf')):
 	elif not low_range<=tree.data<=high_range:
 		return False
 	return is_binary_tree_bst(tree.left,low_range,tree.data) and is_binary_tree_bst(tree.right,tree.data,high_range)
+# Time complexity: O(n), Space complexity: O(h), where h is the height of the tree.
 
 # Test
 print(is_binary_tree_bst(bst))
