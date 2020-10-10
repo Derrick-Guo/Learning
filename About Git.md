@@ -36,7 +36,7 @@ git commit -am "Message" (-a tells Git to add all modified files in the reposito
 ## 8. Checking the log
 To check the log of all commits made to the project, run the following command:
 
-git log
+git log  
 git log --pretty=oneline (short version)
 ## 9. Reverting a change
 To abandon a change and revert back to the previous working state, run the following command:
