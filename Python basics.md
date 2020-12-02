@@ -112,7 +112,7 @@ More information can be find [here](https://wiki.python.org/moin/BitwiseOperator
 `def multiply(x, y):
     return x * y`  
 can be reduced to:  
-`multiply = lambda x, y: x * y`
+`lambda x, y: x * y`
 
 ### High-order built-in functions
 - `map(function, iterable)` returns a map object(which is an iterator) of the results after applying the given function to each item of a given iterable (list, tuple etc.)
